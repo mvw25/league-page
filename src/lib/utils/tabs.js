@@ -54,7 +54,7 @@ export const tabs = [
             {
                 icon: 'view_comfy',
                 label: 'Keepers',
-                dest: '/drafts',
+                dest: '/keepers',
             },
             {
                 icon: 'emoji_events',
