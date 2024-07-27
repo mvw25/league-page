@@ -83,13 +83,6 @@ import { dynasty } from './utils/helper';
             redraftOnly: true,
         },
         {
-            name: "Reddit FF Trade Analyzer",
-            url: "https://www.reddit.com/r/TradeAnalyzerFF/",
-            icon: "assessment",
-            premium: false,
-            separator: true,
-        },
-        {
             name: "FantasyCalc Trade Calculator",
             url: "https://www.fantasycalc.com/trade-calculator",
             icon: "calculate",
@@ -97,6 +90,22 @@ import { dynasty } from './utils/helper';
             separator: false,
             dynastyOnly: false,
         },
+	{
+	    name: "RotoTrade Trade Calculator",
+	    url: "https://www.rototrade.com/fantasy-football-trade-analyzer",
+	    icon: "calculate",
+            premium: false,
+	    separator: true,
+	    redraftOnly: true,
+	},
+	{
+	    name: "FantasyPros",
+	    url: "https://www.fantasypros.com/",
+	    icon: "insights",
+	    premium: true,
+	    separator: true,
+	    redraftOnly: true,
+	},
     ];
 </script>
 
